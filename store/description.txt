@@ -1,0 +1,12 @@
+Your day at a glance: the sun travels an arc from sunrise to sunset, and the moon (in its real phase) takes over at night.
+
+• Weather: current temperature, today's high/low, and a conditions icon on the sun or moon (clear, partly cloudy, cloudy, rain, snow, storm, fog)
+• Ambient Weather station support (optional): your own backyard temperature, an extra sensor of your choice (greenhouse, indoor, pool...), and a rain gauge that appears during a storm. Without a station, weather comes from Open-Meteo for your location.
+• Sunrise and sunset times
+• Crypto price (Bitcoin, Ethereum or Solana) and an exchange rate of your choice
+• Battery, plus a buzz and icon when your phone disconnects
+• Navy, black and light color themes; °F or °C
+
+Built for Pebble Time 2.
+
+Data: Open-Meteo (weather), Coinbase (crypto), Rates By Exchange Rate API (exchangerate-api.com).

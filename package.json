@@ -1,0 +1,52 @@
+{
+  "name": "sun-arc",
+  "author": "Adam Spivey",
+  "version": "0.1.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.4"
+  },
+  "pebble": {
+    "displayName": "Sun Arc",
+    "uuid": "33699f85-6807-471d-a5dc-83a8067a9f43",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "REQUEST",
+      "TEMP",
+      "FROM_STATION",
+      "WEATHER_TIME",
+      "HI",
+      "LO",
+      "CONDITION",
+      "EXTRA_TEMP",
+      "EXTRA_HUMIDITY",
+      "EXTRA_ICON",
+      "RAIN_EVENT_X100",
+      "RAINING",
+      "SUNRISE_UTC",
+      "SUNSET_UTC",
+      "SOUTH",
+      "PRICE1",
+      "PRICE2",
+      "THEME",
+      "VIBRATE_DISCONNECT"
+    ],
+    "resources": {
+      "media": []
+    },
+    "capabilities": [
+      "location",
+      "configurable"
+    ]
+  }
+}
