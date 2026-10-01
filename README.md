@@ -3,7 +3,7 @@
 A watchface for the Pebble Time 2. The sun travels an arc from sunrise to
 sunset, and the moon (in its real phase) takes over at night.
 
-![Sun Arc](store/screenshot.png)
+![Sun Arc](store/emery_1_day.png)
 
 - Current temperature, today's high/low, and a conditions icon on the sun or moon
 - Optional [Ambient Weather](https://ambientweather.net) station: your own

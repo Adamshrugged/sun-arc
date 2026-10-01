@@ -468,7 +468,11 @@ static void prv_draw_weather(GContext *ctx, int hy) {
   if (!s_data.has_weather) {
     prv_text(ctx, "--°", s_font_temp, GRect(40, ty, 120, 34), GTextAlignmentCenter, T->text_dim);
   } else {
+#ifdef MOCK_DATA
+    bool stale = false;  // mock data is never stale, even after emulator clock jumps
+#else
     bool stale = time(NULL) - s_data.weather_time > STALE_SEC;
+#endif
     static char temp[16];
     snprintf(temp, sizeof(temp), "%d°", s_data.temp);
     prv_text(ctx, temp, s_font_temp, GRect(40, ty, 120, 34), GTextAlignmentCenter,
