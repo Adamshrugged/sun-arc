@@ -42,3 +42,7 @@ To design against fixed values, build with `#define MOCK_DATA` at the top of
 
 Weather: [Open-Meteo](https://open-meteo.com) and Ambient Weather. Crypto:
 Coinbase. Exchange rates: [Rates By Exchange Rate API](https://www.exchangerate-api.com).
+
+## License
+
+MIT — see [LICENSE](LICENSE).
